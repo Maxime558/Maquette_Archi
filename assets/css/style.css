@@ -49,12 +49,16 @@ header nav {
   border: 1px solid black;
   border-radius: 0.5rem;
 }
-#check:checked~ul{
-    display: block;
+#check:checked ~ ul {
+  display: flex;
 }
 
-#nav input{
-    display: none;
+#h1header {
+  font-size: 6rem;
+}
+
+#nav input {
+  display: none;
 }
 
 ul {
@@ -62,6 +66,8 @@ ul {
   list-style-type: none;
   font-weight: 100;
   display: none;
+  position: absolute;
+  background-color: white;
 }
 
 li {
@@ -106,11 +112,11 @@ li {
 /* Projects */
 
 .trait {
-    width: 764px;
-    border: 0.1px solid rgb(192, 192, 192);
-    margin-bottom: 20px;margin-top: -20px;
-  }
-  
+  width: 764px;
+  border: 0.1px solid rgb(192, 192, 192);
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
 
 #titreproject {
   margin: 2rem;
@@ -246,18 +252,105 @@ li {
 /* About */
 
 #about {
-    display: block;
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
-    font-weight: 200;
+  display: block;
+  font-weight: 200;
+  margin: 3.5rem;
 }
 
 /* Contact 1 */
 
 #contact1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3.5rem;
+}
+
+#team1 {
+  margin-bottom: 2rem;
+}
+
+#h2about {
+  margin-bottom: 2rem;
+}
+
+#h3Ceo {
+  margin-bottom: 2rem;
+}
+
+#h2John {
+  margin-bottom: 2rem;
+}
+
+#lorem1 {
+  margin-bottom: 2rem;
+}
+
+/* Contact 2  */
+
+#contact2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3.5rem;
+}
+
+#team2 {
+  margin-bottom: 2rem;
+}
+
+#h2Jane {
+  margin-bottom: 2rem;
+}
+
+#h3archi {
+  margin-bottom: 2rem;
+}
+
+#lorem2 {
+  margin-bottom: 2rem;
+}
+
+/* Contact 3 */
+
+#contact3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3.5rem;
+}
+
+#Mike {
+  margin-bottom: 2rem;
+}
+#h3archi2 {
+  margin-bottom: 2rem;
+}
+#lorem3 {
+  margin-bottom: 2rem;
+}
+#team3 {
+  margin-bottom: 2rem;
+}
+
+/* Contact 4 */
+
+#contact4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3.5rem;
+}
+
+#lorem4 {
+  margin-bottom: 2rem;
+}
+#team4 {
+  margin-bottom: 2rem;
+}
+#h3archi3 {
+  margin-bottom: 2rem;
+}
+#Dan {
+  margin-bottom: 2rem;
 }
