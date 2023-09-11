@@ -7,7 +7,7 @@
 
 /* Reset */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "segoeui", sans-serif;
@@ -25,18 +25,36 @@ header nav {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 15vh;
+  height: 11vh;
   letter-spacing: 4px;
   font-weight: 100;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-color: white;
   letter-spacing: 5px;
+  box-shadow: 0px 10px 5px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 10px 5px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 5px -9px rgba(0, 0, 0, 0.75);
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.blue {
+  color: rgb(0, 0, 0);
+}
+
+.ma-bars {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
 }
 
 ul {
   display: flex;
   list-style-type: none;
   font-weight: 100;
+  display: none;
 }
 
 li {
@@ -53,40 +71,160 @@ li {
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-size: 1.5rem;
   color: white;
-  font-weight: 200
+  font-weight: 200;
 }
 
-#logo{
-    margin: 3rem;
-    letter-spacing: 5px;
+#logo {
+  margin: 3rem;
+  letter-spacing: 5px;
 }
 
-.BR{
-    font-weight: 900;
+.BR {
+  font-weight: 900;
 }
 
-.BR2{
-    background-color: rgb(54, 54, 54);
-    background-size: 2rem 2rem;
-    margin: 0.5rem;
+.BR2 {
+  background-color: rgb(54, 54, 54);
+  background-size: 2rem 2rem;
+  margin: 0.2rem;
 }
 
-#architect{
-    display: none;
+#architect {
+  display: none;
 }
 
 /* Projects */
 
 #titreproject {
-    margin: 2rem;
-
+  margin: 2rem;
+  justify-content: flex-start;
+  padding-right: 15rem;
+  font-weight: 100;
 }
 
-#Projects{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+#Projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#Projects > div {
+  margin-bottom: 20px;
+}
+
+.image1 {
+  position: relative;
+  display: inline-block;
+}
+
+#summerhouse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.image2 {
+  position: relative;
+  display: inline-block;
+}
+
+#brickhouse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.image3 {
+  position: relative;
+  display: inline-block;
+}
+
+#renovated {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.image4 {
+  position: relative;
+  display: inline-block;
+}
+
+#barnhouse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.image5 {
+  position: relative;
+  display: inline-block;
+}
+
+#summerhouse2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.image6 {
+  position: relative;
+  display: inline-block;
+}
+
+#brickhouse2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.image7 {
+  position: relative;
+  display: inline-block;
+}
+
+#renovated2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.image8 {
+  position: relative;
+  display: inline-block;
+}
+
+#barnhouse2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
 }
