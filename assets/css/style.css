@@ -54,23 +54,25 @@ header nav {
 }
 
 #h1header {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 #nav input {
   display: none;
 }
 
-ul {
+header ul {
   display: flex;
   list-style-type: none;
   font-weight: 100;
   display: none;
   position: absolute;
   background-color: white;
+  top: 11vh;
+  flex-direction: column;
 }
 
-li {
+header li {
   padding: 16px;
 }
 
@@ -83,7 +85,6 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
   margin-bottom: 2rem;
   font-size: 1.5rem;
   color: white;
@@ -123,6 +124,7 @@ li {
   justify-content: flex-start;
   padding-right: 15rem;
   font-weight: 100;
+  font-size: 2rem;
 }
 
 #Projects {
@@ -257,6 +259,9 @@ li {
   margin: 3.5rem;
 }
 
+#h2about{
+  font-size: 2rem;
+}
 /* Contact 1 */
 
 #contact1 {
