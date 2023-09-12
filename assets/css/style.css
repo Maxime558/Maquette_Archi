@@ -13,11 +13,21 @@
   font-family: "segoeui", sans-serif;
   img,
   input {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 }
 
 /* MENU */
+
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
 
 header nav {
   display: flex;
@@ -29,7 +39,7 @@ header nav {
   letter-spacing: 4px;
   font-weight: 100;
   font-size: 1rem;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   letter-spacing: 5px;
   box-shadow: 0px 10px 5px -9px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 0px 10px 5px -9px rgba(0, 0, 0, 0.75);
@@ -67,7 +77,7 @@ header ul {
   font-weight: 100;
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.719);
   top: 11vh;
   flex-direction: column;
   left: 0;
@@ -126,6 +136,8 @@ header li {
   padding-right: 15rem;
   font-weight: 100;
   font-size: 2rem;
+  padding-right: 28px;
+  margin-left: 0px;
 }
 
 #projects {
@@ -173,6 +185,10 @@ header li {
 
 #h2about {
   font-size: 2rem;
+  margin-left: -30px;
+}
+#aboutp {
+  margin-left: -30px;
 }
 /* Contact */
 
@@ -181,24 +197,28 @@ header li {
   justify-content: center;
   align-items: center;
   margin: 3.5rem;
+  padding-left: 20px;
 }
 .agent {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 0px;
 }
 .team {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 95%;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
-
 .job {
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: 100;
   color: gray;
+  margin-left: 0px;
 }
 .lorem {
-  margin-top: 20px;
+  margin-left: 0px;
   margin-bottom: 20px;
 }
 .button {
@@ -210,10 +230,16 @@ header li {
   text-align: center;
   font-size: 15px;
   padding: 20px;
-  width: 500px;
+  width: 400px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 20px;
 }
 
 /* Contact */
@@ -291,4 +317,45 @@ footer {
   height: 100px;
   color: #ffffff;
   padding: 3rem;
+}
+
+/* Format tablette (de 576px à 1024px) */
+@media screen and (min-width: 576px) {
+  #burger {
+    display: none;
+  }
+  #nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    top: 0;
+  }
+  #logo {
+    z-index: 1;
+  }
+  #ul1 {
+    margin-top: 32px;
+  }
+  #architect {
+    display: inline;
+  }
+  #projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .pimage {
+    margin-right: 20px;
+  }
+  .image {
+    width: 48%;
+    padding-right: 20px;
+  }
+  #titreproject {
+    width: 100%;
+  }
+}
+/* Format desktop (au dessus de 1024px) */
+@media screen and (min-width: 1024px) {
 }
