@@ -11,10 +11,11 @@
   margin: 0;
   padding: 0;
   font-family: "segoeui", sans-serif;
+  vertical-align: bottom;
   img,
   input {
     max-width: 100%;
-    height: auto;
+    height: auto; 
   }
 }
 
