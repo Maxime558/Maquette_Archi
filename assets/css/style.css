@@ -242,8 +242,8 @@ header li {
   padding: 0 1em;
   background-color: #fff;
   border: 2px solid silver;
-  width: 30rem;
   height: 2rem;
+  width: 100%;
   margin-bottom: 20px;
 }
 .send {
@@ -303,25 +303,17 @@ footer {
   }
   #projects {
     width: 90%;
-
   }
   #galerie {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .pimage {
-  }
   .image {
     width: 48%;
   }
   #titreproject {
-    width: 100%;
-  }
-  #winner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    width: 80%;
   }
 }
 /* Format desktop (au dessus de 1024px) */
