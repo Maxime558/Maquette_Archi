@@ -70,6 +70,10 @@ header ul {
   background-color: white;
   top: 11vh;
   flex-direction: column;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 header li {
