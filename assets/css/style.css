@@ -100,11 +100,11 @@ header li {
   letter-spacing: 5px;
 }
 
-.BR {
+.br {
   font-weight: 900;
 }
 
-.BR2 {
+.br2 {
   background-color: rgb(54, 54, 54);
   background-size: 2rem 2rem;
   margin: 0.2rem;
@@ -116,7 +116,7 @@ header li {
 
 /* Projects */
 
-#Projects img {
+#projects img {
   vertical-align: bottom;
 }
 
@@ -128,7 +128,7 @@ header li {
   font-size: 2rem;
 }
 
-#Projects {
+#projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -136,7 +136,7 @@ header li {
   margin-right: 20px;
 }
 
-#Projects > div {
+#projects > div {
   margin-bottom: 20px;
 }
 
