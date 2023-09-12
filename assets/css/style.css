@@ -131,19 +131,16 @@ header li {
 }
 
 #titreproject {
-  margin: 2rem;
   justify-content: flex-start;
-  padding-right: 15rem;
   font-weight: 100;
   font-size: 2rem;
-  margin-left: 0px;
+  margin-bottom: 20px;
 }
 
-#projects {
-  width: 100%;
+#projects,
+#about {
+  width: 80%;
   margin: auto;
-  padding-left: 30px;
-  padding-right: 55px;
 }
 
 #projects > div {
@@ -175,54 +172,35 @@ header li {
 /* About */
 
 #aboutp {
-  margin-left: 10px;
   margin-bottom: 20px;
 }
 
 #about {
   font-weight: 200;
-  padding-left: 20px;
-  padding-right: 50px;
 }
 
 #h2about {
   font-size: 2rem;
-  margin-left: 10px;
   margin-bottom: 20px;
 }
 /* Contact */
 
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 3.5rem;
+#contact {
+  width: 80%;
+  margin-bottom: 20px;
+  margin: auto;
 }
 .team {
   width: 95%;
-  margin-left: 10px;
   margin-bottom: 20px;
 }
 
 .job {
-  margin-left: 10px;
   margin-bottom: 20px;
   font-weight: 100;
   color: gray;
 }
-.lorem {
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
 
-.agent {
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
-.aboutp {
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
 .button {
   display: inline-block;
   background-color: #d6d6d6;
@@ -231,31 +209,22 @@ header li {
   color: #000000;
   text-align: center;
   font-size: 15px;
-  padding: 15px;
-  width: 80%;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
-  margin-bottom: 30px;
-  margin-left: 30px;
+  margin-bottom: 20px;
+  width: 90%;
 }
 
 /* Contact */
 
-#contact {
-  margin: 2rem;
-}
-
 #titrecontact {
   font-size: 2rem;
-  margin: 2rem;
-  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 #textecontact {
   font-size: 1rem;
-  margin: 2rem;
-  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 #form {
@@ -264,13 +233,9 @@ header li {
   justify-content: center;
 }
 
-.divform {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 50px;
+.lorem {
+  margin-bottom: 20px;
 }
-
 .imput {
   display: inline;
   line-height: 1;
@@ -279,9 +244,7 @@ header li {
   border: 2px solid silver;
   width: 30rem;
   height: 2rem;
-  margin: 1rem;
-  padding: 1.2rem;
-  margin-top: -30px;
+  margin-bottom: 20px;
 }
 .send {
   display: inline-block;
@@ -294,16 +257,15 @@ header li {
   width: 300px;
   transition: all 0.5s;
   cursor: pointer;
-  margin-left: 100px;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 /* Footer */
 
 #divmap {
   width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 20px;
 }
 footer {
   text-align: center;
@@ -340,7 +302,8 @@ footer {
     display: inline;
   }
   #projects {
-    width: 100%;
+    width: 90%;
+
   }
   #galerie {
     display: flex;
@@ -354,6 +317,11 @@ footer {
   }
   #titreproject {
     width: 100%;
+  }
+  #winner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 /* Format desktop (au dessus de 1024px) */
